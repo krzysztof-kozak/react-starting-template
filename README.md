@@ -27,4 +27,4 @@ Na branchu local-backend just ustawiony lokalny backend. Można dzięki temu stw
 3. Zainstaluj zależności `pnpm install`
 4. Odpal server `pnpm dev`
 
-!Local Backend
+![](/images/local-backend.png)
