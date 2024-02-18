@@ -14,6 +14,17 @@ Zalecana jest też wtyczka do chrome dodająca narzędzia developerkie: https://
 ## Komendy:
 
 - `pnpm install` - instaluje zależności (potrzeba to zrobić tylko raz na początku)
-- `pnpm run dev` - odpala server developerski
-- `pnpm run test` - odpala testy
-- `pnpm run test-ui` - odpala testy + UI dashboard w przeglądarce
+- `pnpm dev` - odpala server developerski
+- `pnpm test` - odpala testy
+- `pnpm test-ui` - odpala testy + UI dashboard w przeglądarce
+
+## Localny backend:
+
+Na branchu local-backend just ustawiony lokalny backend. Można dzięki temu stworzyć swoje własne lokalne api (alternatywa do używania darmowych API online, takich jak np. https://pokeapi.co/).
+
+1. Wejdź na branch local-backend `git checkout local-backend`
+2. Wejdź do folderu backend `cd ./backend`
+3. Zainstaluj zależności `pnpm install`
+4. Odpal server `pnpm dev`
+
+!Local Backend
