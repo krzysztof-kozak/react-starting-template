@@ -18,7 +18,7 @@ Zalecana jest też wtyczka do chrome dodająca narzędzia developerkie: https://
 - `pnpm test` - odpala testy
 - `pnpm test-ui` - odpala testy + UI dashboard w przeglądarce
 
-## Localny backend:
+## Lokalny backend:
 
 Na branchu local-backend just ustawiony lokalny backend. Można dzięki temu stworzyć swoje własne lokalne api (alternatywa do używania darmowych API online, takich jak np. https://pokeapi.co/).
 
