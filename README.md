@@ -5,7 +5,9 @@ Startowe repozytorium wraz z gotową konfiguracją.
 ## Instrukcja
 
 1. Zrób fork repozytorium
-   ![](/images//fork.png)
+
+   ![](/images/fork.png)
+
 2. Skopiuj **swoje** repozytorium:
 
 ```
@@ -24,3 +26,14 @@ Zalecana jest też wtyczka do chrome dodająca narzędzia developerkie: https://
 - `pnpm dev` - odpala server developerski
 - `pnpm test` - odpala testy
 - `pnpm test-ui` - odpala testy + UI dashboard w przeglądarce
+
+---
+
+# Poprawnie działający vscode wraz z wtyczkami **powinien wyglądać tak:**
+
+**linter**
+![](/images/lint.png)
+
+**auto format (control + s)**
+
+https://www.awesomescreenshot.com/video/25066564?key=37e226e9aa59d1bf89b73cf87d1ecff2
