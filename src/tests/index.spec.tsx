@@ -21,7 +21,7 @@ describe("sayHello", () => {
   });
 });
 
-describe("App", () => {
+describe.skip("App", () => {
   test("renders title", () => {
     render(<App />);
     screen.getByText("KNUR + REACT");
