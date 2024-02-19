@@ -29,9 +29,10 @@ Zalecana jest też wtyczka do chrome dodająca narzędzia developerkie: https://
 
 ---
 
-# Poprawnie działający vscode wraz z wtyczkami **powinien wyglądać tak:**
+## Poprawnie działający vscode wraz z wtyczkami **powinien wyglądać tak:**
 
 **linter**
+
 ![](/images/lint.png)
 
 **auto format (control + s)**
