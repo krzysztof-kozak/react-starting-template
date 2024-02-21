@@ -40,6 +40,7 @@ function Exercise5() {
   useEffect(() => {
     async function fetchWeather() {
       const response = await fetch(API);
+
       const data = await response.json();
 
       const { current, current_units } = data;

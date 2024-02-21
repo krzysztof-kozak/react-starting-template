@@ -1,6 +1,3 @@
-import "./index.css";
-import { Exercise5 } from "./zadanka/Exercise-5";
-
 // const data = [
 //   {
 //     nazwa: "foo",
@@ -29,8 +26,14 @@ import { Exercise5 } from "./zadanka/Exercise-5";
 //   },
 // ];
 
+import { List } from "./List";
+
 function App() {
-  return <Exercise5 />;
+  return (
+    <div style={{}}>
+      <List />
+    </div>
+  );
 }
 
 export { App };

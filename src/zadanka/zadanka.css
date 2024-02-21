@@ -1,0 +1,37 @@
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin-left: 40px;
+}
+
+button.green {
+  background-color: #04aa6d;
+}
+
+button.red {
+  background-color: #da1f1f;
+}
+
+button:hover.green {
+  background-color: #3e8e41;
+}
+
+button:hover.red {
+  background-color: #c82b0b;
+}
+
+button:active.green {
+  background-color: #0a4d0a;
+  transform: translateY(4px);
+}
+
+button:active.red {
+  background-color: #a9141d;
+  transform: translateY(4px);
+}
